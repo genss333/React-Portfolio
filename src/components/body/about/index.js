@@ -1,14 +1,14 @@
 import React from "react";
-import "./about.css";
 import SocialContact from "../../common/social-contact/index";
+import "./about.css";
 function About() {
   return (
     <div className="about">
       <div className="about-top">
         <div className="about-info">
         Hello There ✋,I am,
-         <br /> <span className="info-name">Thant Zin Phyo</span>.
-         <br /> I have experience working with Azure Cloud Platform. 
+         <br /> <span className="info-name">Tatsapon munsan</span>.
+         <br /> I have experience working with Flutter and Spring Boot. 
         </div>
         <div className="about-photo">
           <img 

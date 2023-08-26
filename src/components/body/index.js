@@ -1,10 +1,11 @@
 import React from "react";
-import "./body.css";
 import About from "./about/index";
+import "./body.css";
+import Contact from "./contact/index";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
 import Work from "./work/index";
-import Contact from "./contact/index";
+import Certificate from "./certificate/index";
 
 function Body() {
   return (
@@ -17,6 +18,9 @@ function Body() {
     </section>
     <section id="skills">
       <Skills />
+    </section>
+    <section id="certificate">
+      <Certificate />
     </section>
     <section id="work">
       <Work />

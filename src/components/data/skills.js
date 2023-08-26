@@ -1,51 +1,119 @@
 export const SkillsData = [
   {
-    type: "Web-Development",
+    type: "Languages",
     list: [
       {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>
-        },
-      {
-        name: "HTML5",
-        icon: <i class="devicon-html5-plain colored"></i>
-        },
-        {
-          name: "CSS3",
-          icon: <i class="devicon-css3-plain colored"></i>
-          },
-      {
-        name: "JavaScript",
-        icon: <i class="devicon-javascript-plain colored"></i>
+        name: "Java",
+        icon: <i class="devicon-java-plain colored"></i>,
       },
       {
-        name: "Tailwind",
-        icon: <i class="devicon-tailwindcss-plain colored"></i>
+        name: "Dart",
+        icon: <i class="devicon-dart-plain colored"></i>,
+      },
+      {
+        name: "Go",
+        icon: <i class="devicon-go-plain colored"></i>,
+      },
+      {
+        name: "PHP",
+        icon: <i class="devicon-php-plain colored"></i>,
+      },
+      {
+        name: "JavaScript",
+        icon: <i class="devicon-javascript-plain colored"></i>,
+      },
+      {
+        name: "Python",
+        icon: <i class="devicon-python-plain colored"></i>,
+      },
+      {
+        name: "C",
+        icon: <i class="devicon-c-plain colored"></i>,
       },
     ],
   },
   {
-    type: "Cloud & Linux",
+    type: "Frontend ",
     list: [
       {
-        name: "Azure",
-        icon: <i class="devicon-azure-plain colored"></i>
+        name: "Flutter",
+        icon: <i class="devicon-flutter-plain colored"></i>,
       },
       {
-        name: "Docker",
-        icon: <i class="devicon-docker-plain colored"></i>
+        name: "ReactJS",
+        icon: <i class="devicon-react-original colored"></i>,
+      },
+      {
+        name: "NextJS",
+        icon: <i class="devicon-nextjs-original colored"></i>,
+      },
+
+      {
+        name: "Bootstrap",
+        icon: <i class="devicon-bootstrap-plain colored"></i>,
+      },
+      {
+        name: "Material UI",
+        icon: <i class="devicon-materialui-plain colored"></i>,
+      },
+      {
+        name: "React Bootstrap",
+        icon: <i class="devicon-react-original colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "Backend",
+    list: [
+      {
+        name: "Java Spring Boot JPA",
+        icon: <i class="devicon-spring-plain colored"></i>,
+      },
+      {
+        name: "Go Fiber",
+        icon: <i class="devicon-go-plain colored"></i>,
+      },
+      {
+        name: "ExpressJS",
+        icon: <i class="devicon-express-original colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "Databases",
+    list: [
+      {
+        name: "MySQL",
+        icon: <i class="devicon-mysql-plain colored"></i>,
+      },
+      {
+        name: "MariaDB",
+        icon: <img src="https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png" width={100}/>,
+      },
+      {
+        name: "MongoDB",
+        icon: <i class="devicon-mongodb-plain colored"></i>,
+      },
+    ],
+  },
+  {
+    type: "Tools",
+    list: [
+      {
+        name: "Firebase",
+        icon: <i class="devicon-firebase-plain colored"></i>,
       },
       {
         name: "Git",
-        icon: <i class="devicon-git-plain colored"></i>
+        icon: <i class="devicon-git-plain colored"></i>,
       },
       {
-        name: "Ubuntu",
-        icon: <i class="devicon-ubuntu-plain colored"></i>
+        name: "GitHub",
+        icon: <i class="devicon-github-original colored"></i>,
       },
       {
-        name: "Bash",
-        icon: <i class="devicon-bash-plain colored"></i>
+        name: "NodeJS",
+        icon: <i class="devicon-nodejs-plain colored"></i>,
       },
     ],
   },

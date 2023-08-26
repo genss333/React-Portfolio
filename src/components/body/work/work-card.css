@@ -8,7 +8,7 @@
     flex-direction: row-reverse;
 }
 .work-logo {
-    height: 80px;
+    height: 250px;
 }
 
 .work-info {
@@ -31,10 +31,34 @@
     max-width: 80%;
 }
 
+.company-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
 
 
 @media only screen and (max-width: 720px) {
     .work-card{
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .work-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-logo {
+        height: 150px;
+    }
+    .work-info {
+        align-items: center;
+        text-align: center;
+    }
+    .work-desc {
+        max-width: 100%;
+    }
+    
 }
