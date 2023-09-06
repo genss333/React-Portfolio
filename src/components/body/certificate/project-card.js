@@ -4,7 +4,9 @@ function ProjectCard({ project }) {
   return (
     <div className="project-card">
       <div className="project-info">
-        <label className="project-title">{project.title}</label>
+          <a href={project.link} target="_blank" rel="noreferrer">
+            <label className="project-title">{project.title}</label>
+          </a>
         <p>{project.about}</p>
         <div className="project-tags">
           {project.tags.map((tag)=> {
